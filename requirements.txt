@@ -16,9 +16,11 @@ debugpy==1.8.17
 decorator==5.2.1
 exceptiongroup==1.3.0
 executing==2.2.1
+filelock==3.13.1
 frozenlist==1.7.0
 fsspec==2025.9.0
 idna==3.4
+intel-openmp==2021.4.0
 ipykernel==6.30.1
 ipython==8.37.0
 jedi==0.19.2
@@ -30,8 +32,11 @@ markdown-it-py==4.0.0
 markupsafe==3.0.2
 matplotlib-inline==0.1.7
 mdurl==0.1.2
+mkl==2021.4.0
+mpmath==1.3.0
 multidict==6.6.4
 nest-asyncio==1.6.0
+networkx==3.3
 numpy==2.1.2
 nvidia-ml-py==13.580.82
 packaging==25.0
@@ -65,10 +70,12 @@ six==1.17.0
 stack-data==0.6.3
 swankit==0.2.4
 swanlab==0.6.10
-torch==1.12.1+cu113
+sympy==1.13.3
+tbb==2021.11.0
+# torch==2.3.1+cu118
 torch-geometric==2.6.1
-torchaudio==0.12.1+cu113
-torchvision==0.13.1+cu113
+# torchaudio==2.3.1+cu118
+# torchvision==0.18.1+cu118
 tornado==6.5.2
 tqdm==4.67.1
 traitlets==5.14.3
